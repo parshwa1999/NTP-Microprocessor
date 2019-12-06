@@ -40,8 +40,21 @@
   
 * ## Block Diagram
 
-![Block Diagram](BlockDiagram.png)
-![Alt text](/home/parshwa/Desktop/BlockDiagram.png?raw=true "Title")
+![Block Diagram](.images/BlockDiagram.png)
+All the modules contain clock (clk) and reset as inputs.
+
+* ## Simulation Results
+
+  * **Addition**
+    ![Addition Results](.images/Addition.png)
+ 
+  * **Multiplication**
+    ![Multiplication Results](.images/Multiplication.png)
+    
+
+* ## Comparison of our design with 8085
+
+
 
 
 
