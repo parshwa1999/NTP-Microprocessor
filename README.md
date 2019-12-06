@@ -40,7 +40,7 @@
   
 * ## Block Diagram
 
-![Block Diagram](/home/parshwa/Desktop/BlockDiagram.png)
+![Block Diagram](BlockDiagram.png)
 ![Alt text](/home/parshwa/Desktop/BlockDiagram.png?raw=true "Title")
 
 
