@@ -73,8 +73,37 @@ No Accumulator | Contains Accumulator
 Only one Interrupt | Five hardware Interrupts
 No Stack Pointer | Stack Pointer
 
+* ## Execution Block
 
+![Execution Block](.images/Execution_Block.png)
 
+* ## Program Memory
+
+![Program Memory](.images/Program_Memory.png)
+
+* ## Register Bank
+
+![Register Bank](.images/Register_Bank.png)
+
+* ## Data Memory
+
+![Data_Memory](.images/Data_Memory.png)
+
+* ## Stall Control
+
+![Stall Control](.images/Stall_Control.png)
+
+* ## Write Back
+
+![Write Back](.images/Write_Back.png)
+
+* ## Jump Control
+
+![Jump Control](.images/Jump_Control.png)
+
+* ## Dependency Check
+
+![Dependency Check](.images/Dependency_Check.png)
 
 
 
