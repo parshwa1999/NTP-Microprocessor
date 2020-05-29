@@ -44,7 +44,49 @@
 ![Block Diagram](.images/BlockDiagram.png)
 *Note:- All the modules contain clock (clk) and reset as inputs.*
 
-* ## Simulation Results
+* ## How to Use
+  * After downloading this repository just run NTP-Microprocessor.xise file.
+  * Go to Simulation from the menu shown on top left corner and run Microprocessortb.v file to check simulation results.
+  * Or Else upload .bit file on Artix FPGA
+  
+* In order to write your own assembly code in Assembly_Program.COE in memory_initialization_vector in Hexadecimal format
+  **Opcodes and Operations**
+  Sr No. | Instruction | Opcode | Operation in Execution Block | Flags Affected | Type
+  ------ | ----------- | ------- | ------------ | ------------------------------ | --------
+  1 | ADD | 00000 | ans_ex = A + B | Parity, Overflow, Zero, Carry | R-type
+  2 | SUB | 00001 | ans_ex = A - B | Parity, Overflow, Zero, Carry | R-type
+  3 | MOV | 00010 | ans_ex = B | Parity, Zero (Reset other flags) | R-type
+  4 | AND | 00100 | ans_ex = A & B | Parity, Zero (Reset other flags) | R-type
+  5 | OR | 00101 | ans_ex = A &#124; B | Parity, Zero (Reset other flags) | R-type
+  6 | XOR | 00110 | ans_ex = A ^ B | Parity, Zero (Reset other flags) | R-type
+  7 | NOT | 00111 | ans_ex = ~B | Parity, Zero (Reset other flags) | R-type
+  8 | ADI | 01000 | ans_ex = A + B | Parity, Overflow, Zero, Carry | I-type
+  9 | SBI | 01001 | ans_ex = A - B | Parity, Overflow, Zero, Carry | I-type
+  10 | MVI | 01010 | ans_ex = B | Parity, Zero (Reset other flags) | I-type
+  11 | ADI | 01100 | ans_ex = A & B | Parity, Zero (Reset other flags) | I-type
+  12 | ORI | 01101 | ans_ex = A &#124; B | Parity, Zero (Reset other flags) | I-type
+  13 | XRI | 01110 | ans_ex = A ^ B | Parity, Zero (Reset other flags) | I-type
+  14 | NTI | 01111 | ans_ex = ~B | Parity, Zero (Reset other flags) | I-type
+  15 | RET | 10000 | Hold previous ‘ans_ex’ | Reset all flags | J-type
+  16 | HLT | 10001 | Hold previous ‘ans_ex’ | Reset all flags | ---
+  17 | LD | 10100 | ans_ex = A | Reset all flags | M-type
+  18 | ST | 10101 | ans_ex = A | Reset all flags | M-type
+  19 | IN | 10110 | ans_ex = data_in | Parity, Zero (Reset other flags) | I/O-type
+  20 | OUT | 10111 | Hold previous ‘ans_ex’ data_out = A | Reset all flags | I/O-type
+  21 | JMP | 10101 | Hold previous ‘ans_ex’ | Reset all flags | J-type
+  22 | LS | 11001 | ans_ex = A << B | Parity, Zero (Reset other flags) | R-type
+  23 | RS | 11010 | ans_ex = A >> B | Parity, Zero (Reset other flags) | R-type
+  24 | RSA | 11011 | ans_ex = A >>> B | Parity, Zero (Reset other flags) | R-type
+  25 | JC | 11100 | Hold previous ‘ans_ex’ | Reset all flags | J-type
+  26 | JNC | 11101 | Hold previous ‘ans_ex’ | Reset all flags | J-type
+  27 | JZ | 11110 | Hold previous ‘ans_ex’ | Reset all flags | J-type
+  28 | JNZ | 11111 | Hold previous ‘ans_ex’ | Reset all flags | J-type
+  
+  *Note -: Arithmetic operations are on 2’s complimented numbers.*
+  
+  ![Instruction_Format](.images/Instruction_Format.png)
+
+  * ## Simulation Results
 
   * **Addition**
     ![Addition Results](.images/Addition.png)
