@@ -4,7 +4,7 @@
 
 * ## Overview
   
-  A real time Microprocessor  impemented in verilog and tested on Xilinx Spartan 3E FPGA.
+  A real time Microprocessor impemented in verilog and tested on Xilinx Artix FPGA.
   
   It's a RISC based 8 bit 5 stage pilelined proccessor with 28 bit instruction format and 579.67 Mhz clock frequency.
   

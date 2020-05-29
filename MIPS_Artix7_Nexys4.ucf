@@ -1,0 +1,83 @@
+//Data_out
+# Bank = 1, Pin name = IO_L14N_1/A3/RHCLK7, Type = RHCLK/DUAL, Sch name = JD10/LD0
+NET "data_out[0]" LOC = H17;
+# Bank = 1, Pin name = IO_L14P_1/A4/RHCLK6, Type = RHCLK/DUAL, Sch name = JD9/LD1
+NET "data_out[1]" LOC = K15;
+# Bank = 1, Pin name = IO_L12P_1/A8/RHCLK2, Type = RHCLK/DUAL, Sch name = JD8/LD2
+NET "data_out[2]" LOC = J13;
+# Bank = 1, Pin name = IO_L12N_1/A7/RHCLK3/TRDY1, Type = RHCLK/DUAL, Sch name = JD7/LD3
+NET "data_out[3]"  LOC = "K14";
+# Bank = 1, Pin name = IO, Type = I/O, Sch name = LD4? s3e500 only
+NET "data_out[4]" LOC = R18;
+# Bank = 1, Pin name = IO, Type = I/O, Sch name = LD5? s3e500 only
+NET "data_out[5]" LOC = V17;
+# Bank = 3, Pin name = IO, Type = I/O, Sch name = LD6? s3e500 only
+NET "data_out[6]" LOC = U17;
+# Bank = 3, Pin name = IO/VREF_3, Type = VREF, Sch name = LD7? s3e500 only
+NET "data_out[7]"  LOC = "R4";
+
+//Data_in
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW0
+NET "data_in[0]" LOC = J15;
+# Bank = 1, Pin name = IP/VREF_1, Type = VREF, Sch name = SW1
+NET "data_in[1]" LOC = "H18";
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW2
+NET "data_in[2]" LOC = M13;
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW3
+NET "data_in[3]" LOC = R15;
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW4
+NET "data_in[4]" LOC = R17;
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW5
+NET "data_in[5]" LOC = T18;
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW6
+NET "data_in[6]" LOC = U18;
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = SW7
+
+//Interrupt
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN0
+NET "interrupt" LOC = P18;
+NET "interrupt" CLOCK_DEDICATED_ROUTE = FALSE;
+
+//reset
+# Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN0
+NET "reset" LOC = C12;
+NET "reset" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+//Clock
+# Bank = 0, Pin name = IP_L13P_0/GCLK8, Type = GCLK, Sch name = GCLK0
+NET "clk" LOC = E3;
+
+#NET "sys_clk"   period = 10.0 ns HIGH 50%;
+
+
+#Created by Constraints Editor (xc6vlx240t-ff1156-1) - 2013/12/30
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clock = PERIOD "clk" 1000 ns HIGH 50 % INPUT_JITTER 50 ps;
+
+
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "interrupt" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+NET "data_out[0]" IOSTANDARD = LVCMOS33;
+NET "data_out[1]" IOSTANDARD = LVCMOS33;
+NET "data_out[2]" IOSTANDARD = LVCMOS33;
+NET "data_out[4]" IOSTANDARD = LVCMOS33;
+NET "data_out[3]" IOSTANDARD = LVCMOS33;
+NET "data_out[5]" IOSTANDARD = LVCMOS33;
+NET "data_out[6]" IOSTANDARD = LVCMOS33;
+NET "data_out[7]" IOSTANDARD = LVCMOS33;
+NET "data_in[0]" IOSTANDARD = LVCMOS33;
+NET "data_in[1]" IOSTANDARD = LVCMOS33;
+NET "data_in[2]" IOSTANDARD = LVCMOS33;
+NET "data_in[3]" IOSTANDARD = LVCMOS33;
+NET "data_in[4]" IOSTANDARD = LVCMOS33;
+NET "data_in[5]" IOSTANDARD = LVCMOS33;
+NET "data_in[6]" IOSTANDARD = LVCMOS33;
+NET "data_in[7]" IOSTANDARD = LVCMOS33;
+
+
+NET "data_out[3]" LOC = N14;
+NET "data_out[7]" LOC = U16;
+NET "data_in[1]" LOC = L16;
+NET "data_in[7]" LOC = R13;
