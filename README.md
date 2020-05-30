@@ -49,8 +49,9 @@
   * Go to Simulation from the menu shown on top left corner and run Microprocessortb.v file to check simulation results.
   * Or Else upload .bit file on Artix FPGA
   
-* In order to write your own assembly code in Assembly_Program.COE in memory_initialization_vector in Hexadecimal format and Regenrate Program Memomry's IP Core (ROM).
-
+* In order to write your own assembly code in Assembly_Program.COE in memory_initialization_vector in Hexadecimal format.
+* Regenrate Program Memory's IP Core (ROM) and select Assembly_Program.COE while initializing it.
+* If Problem still persists you can raise an issue or contact me on [parshwa1999@gmail.com](parshwa1999@gmail.com)
 
   **Opcodes and Operations**
   Sr No. | Instruction | Opcode | Operation in Execution Block | Flags Affected | Type
