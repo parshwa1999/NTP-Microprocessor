@@ -53,6 +53,8 @@
 * Regenrate Program Memory's IP Core (ROM) and select Assembly_Program.COE while initializing it.
 * If Problem still persists you can raise an issue or contact me on [parshwa1999@gmail.com](parshwa1999@gmail.com)
 
+  **For More Details Refer Report.pdf**
+
   **Opcodes and Operations**
   Sr No. | Instruction | Opcode | Operation in Execution Block | Flags Affected | Type
   ------ | ----------- | ------- | ------------ | ------------------------------ | --------
