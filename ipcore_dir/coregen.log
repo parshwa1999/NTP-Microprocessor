@@ -16,9 +16,10 @@ Running ngcbuild...
 Writing VEO instantiation template for 'Program_Memory'...
 Writing Verilog behavioral simulation model for 'Program_Memory'...
 WARNING:sim - Overwriting existing file
-   E:/lab8/ipcore_dir/tmp/_cg/Program_Memory/doc/blk_mem_gen_v7_3_vinfo.html
-   with file from view xilinx_documentation
-Delivered 1 file into directory E:/lab8/ipcore_dir/tmp/_cg/Program_Memory
+   E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory/doc/blk_mem_gen_v
+   7_3_vinfo.html with file from view xilinx_documentation
+Delivered 1 file into directory
+E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory
 Generating ASY schematic symbol...
 INFO:sim:949 - Finished generation of ASY schematic symbol.
 Generating SYM schematic symbol for 'Program_Memory'...
@@ -27,23 +28,24 @@ Regenerating ISE project file for 'Program_Memory'...
 Generating ISE project...
 XCO file found: Program_Memory.xco
 XMDF file found: Program_Memory_xmdf.tcl
-Adding E:/lab8/ipcore_dir/tmp/_cg/Program_Memory.asy -view all -origin_type
-imported
-Adding E:/lab8/ipcore_dir/tmp/_cg/Program_Memory.ngc -view all -origin_type
-created
-Checking file "E:/lab8/ipcore_dir/tmp/_cg/Program_Memory.ngc" for project device
-match ...
-File "E:/lab8/ipcore_dir/tmp/_cg/Program_Memory.ngc" device information matches
-project device.
-Adding E:/lab8/ipcore_dir/tmp/_cg/Program_Memory.sym -view all -origin_type
-imported
-Adding E:/lab8/ipcore_dir/tmp/_cg/Program_Memory.v -view all -origin_type
-created
+Adding E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory.asy -view all
+-origin_type imported
+Adding E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory.ngc -view all
+-origin_type created
+Checking file "E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory.ngc"
+for project device match ...
+File "E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory.ngc" device
+information matches project device.
+Adding E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory.sym -view all
+-origin_type imported
+Adding E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory.v -view all
+-origin_type created
 INFO:HDLCompiler:1845 - Analyzing Verilog file
-   "E:/lab8/ipcore_dir/tmp/_cg/Program_Memory.v" into library work
+   "E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory.v" into library
+   work
 INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
-Adding E:/lab8/ipcore_dir/tmp/_cg/Program_Memory.veo -view all -origin_type
-imported
+Adding E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory.veo -view all
+-origin_type imported
 INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
    Please set the new top explicitly by running the "project set top" command.
    To re-calculate the new top automatically, set the "Auto Implementation Top"

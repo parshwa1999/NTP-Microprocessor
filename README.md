@@ -4,7 +4,7 @@
 
 * ## Overview
   
-  A real time Microprocessor impemented in verilog and tested on Xilinx Artix FPGA.
+  A real time Microprocessor impemented in verilog and tested on Xilinx Artix-7 FPGA.
   
   It's a RISC based 8 bit 5 stage pilelined proccessor with 28 bit instruction format and 579.67 Mhz clock frequency.
   
@@ -45,9 +45,9 @@
 *Note:- All the modules contain clock (clk) and reset as inputs.*
 
 * ## How to Use
-  * After downloading this repository just run NTP-Microprocessor.xise file.
+  * After downloading this repository just open NTP-Microprocessor.xise file in Xilinx-ISE.
   * Go to Simulation from the menu shown on top left corner and run Microprocessortb.v file to check simulation results.
-  * Or Else upload .bit file on Artix FPGA
+  * Or Else upload .bit file on Artix-7 FPGA
   
 * In order to write your own assembly code in Assembly_Program.COE in memory_initialization_vector in Hexadecimal format.
 * Regenrate Program Memory's IP Core (ROM) and select Assembly_Program.COE while initializing it.

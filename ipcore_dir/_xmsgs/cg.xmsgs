@@ -17,13 +17,13 @@
 <msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Pre-processing HDL files for &apos;Program_Memory&apos;...</arg>
 </msg>
 
-<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file E:/lab8/ipcore_dir/tmp/_cg/Program_Memory/doc/blk_mem_gen_v7_3_vinfo.html with file from view xilinx_documentation</arg>
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Overwriting existing file E:/TMP/NTP-Microprocessor/ipcore_dir/tmp/_cg/Program_Memory/doc/blk_mem_gen_v7_3_vinfo.html with file from view xilinx_documentation</arg>
 </msg>
 
-<msg type="info" file="sim" num="949" delta="new" >Finished generation of ASY schematic symbol.
+<msg type="info" file="sim" num="949" delta="old" >Finished generation of ASY schematic symbol.
 </msg>
 
-<msg type="info" file="sim" num="948" delta="new" >Finished FLIST file generation.
+<msg type="info" file="sim" num="948" delta="old" >Finished FLIST file generation.
 </msg>
 
 </messages>

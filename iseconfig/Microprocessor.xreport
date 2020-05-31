@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-05-29T06:18:10</DateModified>
+  <DateModified>2020-05-31T03:31:54</DateModified>
   <ModuleName>Microprocessor</ModuleName>
   <SummaryTimeStamp>2017-11-06T18:58:53</SummaryTimeStamp>
-  <SavedFilePath>E:/lab8/iseconfig/Microprocessor.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/lab8\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/TMP/NTP-Microprocessor/iseconfig/Microprocessor.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/TMP/NTP-Microprocessor\</ImplementationReportsDirectory>
   <DateInitialized>2017-09-29T22:04:07</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
